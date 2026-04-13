@@ -1,5 +1,5 @@
 {% set name = "ksops" %}
-{% set version = "4.5.0" %}
+{% set version = "4.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/viaduct-ai/kustomize-sops/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: a77d74d1669627d3845c5b490f2f435877ad9dbb336b8ab5f474c34f588cdc0b
+  sha256: c3cd2b77e6adb4cc84bcaad8cbd751ee0c633bed2f835ac85ce2bc969d21a88b
   folder: src
 
 build:
